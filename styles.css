@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+    background-position: cover;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* header section */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #25161b;
+    padding: 20px 120px;
+    color: #f3cba5;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: #f3cba5;
+    padding: 10px 15px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.wallet {
+    border: 1px solid #975a5e;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.header-list a:hover {
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+/* hero section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    color: #f3cba5;
+    margin: 4em 7em;
+}
+
+.hero-left h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+.hero-left button {
+    margin-top: 2em;
+}
+
+.hero-left button {
+    background: #975a5e;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    color: #f3cba5;
+    padding: 10px;
+    font-family: "Poppins";
+    font-size: 1em;
+    transition: 0.5s all;
+}
+
+.hero-left button:hover {
+    background-color: #25161b;
+}
+
+
+/* works section */
+
+.works,
+.auction {
+    padding: 80px 120px;
+    color: #f3cba5;
+    line-height: 2em;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    width: 40%;
+    background: #25161b;
+    padding: 15px;
+    margin: 30px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s all;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    transform: translateY(10%);
+}
+
+.works h3,
+.auction h3 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.works p,
+.auction p {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.card p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/*--------------footer-------------*/
+
+footer {
+    display: block;
+    text-align: center;
+    margin: 5em auto;
+}
+
+.copyright {
+    color: #777;
+    font-size: 15px;
+    margin: 5em auto;
+}
+
+.copyright a {
+    color: #777;
+    text-decoration: none;
+    font-weight: 600;
+}
