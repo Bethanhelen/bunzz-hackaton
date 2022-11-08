@@ -147,7 +147,195 @@ header {
 }
 
 
-/* auction level */
+/* mint card */
+
+main {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    background-color: #f3cba5;
+    border-radius: 15px;
+    height: 750px;
+}
+
+.mint h1 {
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+}
+
+.mint-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mint-left img {
+    width: 400px;
+    margin-bottom: 3em;
+}
+
+.mint-right {
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+.numbers p {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+#Progress-status {
+    width: 70%;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#myprojectBar {
+    width: 10%;
+    height: 25px;
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+
+.text p {
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+.details p {
+    font-size: 20px;
+}
+
+.details button {
+    background: #975a5e;
+    border-radius: 10px;
+    padding: 11px 20px;
+    border: none;
+    color: #f3cba5;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.details input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.details input:focus {
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.increment-container {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    background-color: #975a5e;
+    padding: 5px 10px;
+    margin: 13px 15px 0 0;
+    border-radius: 10px;
+}
+
+.minus,
+.plus {
+    width: 25px;
+    height: 25px;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #f3cba5;
+    font-weight: 500;
+}
+
+.minus span {
+    display: flex;
+    width: 10px;
+    height: 2px;
+    background: #25161b;
+}
+
+.plus span:nth-child(1) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 10px;
+    height: 2px;
+    background-color: #25161b;
+}
+
+.plus span:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 2px;
+    height: 10px;
+    background-color: #25161b;
+}
+
+.nfts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nft-box {
+    width: 25%;
+    background: #25161b;
+    padding: 15px;
+    margin: 30px 25px 40px 0;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nft-box img {
+    padding-right: 15px;
+}
+
+.nft-box p {
+    font-size: 1em;
+    text-align: center;
+    color: #f3cba5;
+}
+
+
+/* team level */
 
 .boxes {
     display: flex;
@@ -166,6 +354,12 @@ header {
     transition: 0.5s all;
 }
 
+.box img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
 .box:hover {
     transform: translateY(10%);
 }
@@ -179,19 +373,19 @@ header {
 /*--------------footer-------------*/
 
 footer {
-    display: block;
     text-align: center;
-    margin: 5em auto;
+    background-color: #25161b;
 }
 
 .copyright {
-    color: #777;
+    color: #f3cba5;
     font-size: 15px;
     margin: 5em auto;
+    padding: 20px;
 }
 
 .copyright a {
-    color: #777;
+    color: #f3cba5;
     text-decoration: none;
     font-weight: 600;
 }

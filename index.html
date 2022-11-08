@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BINA NFT MARKETPLACE</title>
+    <title>BINA NFT MINTING SITE</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/b5610d69c4.js" crossorigin="anonymous"></script>
 </head>
@@ -25,9 +25,9 @@
 
         <div class="hero" id="home">
             <div class="hero-left">
-                <h1>Buy and Sell <br> digital art, <br> NFTs collection</h1>
-                <p>Find exclusive digital artwork. Collect digital artwork made by amazing people. Make money by doing something you are passionate about.</p>
-                <button><a href= "#nft">Create NFTs</a></button>
+                <h1>Design and mint <br> digital art, <br> NFTs collection</h1>
+                <p>Upload exclusive digital artwork. Mint digital artwork. Make money by doing something you are passionate about.</p>
+                <button><a href= "#mint">Create NFTs</a></button>
             </div>
             <div class="hero-right">
                 <img src="token.png" alt="token image" width="500">
@@ -41,50 +41,93 @@
             <div class="cards">
                 <div class="card">
                     <h4>1. Setup your wallet</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi alias aliquam accusantium iure ullam, debitis asperiores voluptatum inventore ut vel eius aspernatur ipsam, saepe repellendus? Quia a repudiandae at. Quae.</p>
+                    <p>Register on any ethereum wallet i.e Metamask and generate your wallet address</p>
                 </div>
 
                 <div class="card">
                     <h4>2. Create your collection</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi alias aliquam accusantium iure ullam, debitis asperiores voluptatum inventore ut vel eius aspernatur ipsam, saepe repellendus? Quia a repudiandae at. Quae.</p>
+                    <p>Input your Token Id and upload the picture of your NFTs</p>
                 </div>
 
                 <div class="card">
                     <h4>3. List them for sale</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi alias aliquam accusantium iure ullam, debitis asperiores voluptatum inventore ut vel eius aspernatur ipsam, saepe repellendus? Quia a repudiandae at. Quae.</p>
+                    <p>Mint your owned NFTs and put them up for sale on NFT marketplace.</p>
                 </div>
             </div>
         </div>
 
+        <main id="mint">
+            <section class="mint">
+                <h1>Mint</h1>
+                <div class="mint-card">
+                    <div class="mint-left">
+                        <img src="nft.png" alt="">
+                    </div>
+                    <div class="mint-right">
+                        <div class="mint-info">
+                            <div class="numbers">
+                                <p>5/30</p>
+                            </div>
+                            <div id="Progress-status">
+                                <div id="myprojectBar">
+                                </div>
+                            </div>
+                            <div class="text">
+                                <p> 1st cost 0.03 Matic, excluding gas fees</p>
+                            </div>
+                            <div class="details">
+                                <input type="text" placeholder="Enter your Wallet address">
+                                <div class="bar">
+                                    <div class="increment-container">
+                                        <span class="minus">
+                                            <span></span>
+                                        </span>
 
-        <div class="auction" id="nft">
-            <h3>Auctions</h3>
-            <p>Live Auctions</p>
+                                        <span class="num"> 1</span>
+
+                                        <span class="plus">
+                                            <span></span>
+                                        <span></span>
+                                        </span>
+                                    </div>
+                                    <button>Mint Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nfts">
+                    <div class="nft-box">
+                        <img src="nft.png" alt="" width="150">
+                        <p>Flight Punk<br>0.33ETH
+                    </div>
+                    <div class="nft-box">
+                        <img src="nft.png" alt="" width="150">
+                        <p>Flight Punk<br>0.33ETH
+                    </div>
+                    <div class="nft-box">
+                        <img src="nft.png" alt="" width="150">
+                        <p>Flight Punk<br>0.33ETH
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <div class="auction">
+            <h3>Team</h3>
             <div class="boxes">
                 <div class="box">
-                    <img src="https://loobr.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdq3jqnrem%2Fimage%2Ffetch%2Fq_60%2Fhttps%3A%2F%2Floobr.infura-ipfs.io%2Fipfs%2FQmc5pXSCdi5tHPEJBsFq1N3JNfewUXwPPjkaJ1TxLUHCe8%3F_a%3DATO2BAA0&w=1080&q=75" alt="" width="300">
-                    <p>Owned by: Crux <br> Price: 0.5ETH <br> winning bid</p>
+                    <img src="https://loobr.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdq3jqnrem%2Fimage%2Ffetch%2Fq_60%2Fhttps%3A%2F%2Floobr.infura-ipfs.io%2Fipfs%2FQmc5pXSCdi5tHPEJBsFq1N3JNfewUXwPPjkaJ1TxLUHCe8%3F_a%3DATO2BAA0&w=1080&q=75" alt="" width="250">
+                    <p>Ihuoma Anosike</p>
                 </div>
                 <div class="box">
-                    <img src="https://nftmyimage.com/images/9e6c99676c8cab0106c313f974297b1afdc068b057842019e668d0ecffc8632a" alt="" width="300">
-                    <p>Owned by: Crux <br> Price: 0.5ETH <br> winning bid</p>
+                    <img src="Olanike Ogundiran.jpg" alt="" width="250" height="320">
+                    <p>Olanike Ogundiran</p>
                 </div>
                 <div class="box">
-                    <img src="https://loobr.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdq3jqnrem%2Fimage%2Ffetch%2Fq_60%2Fhttps%3A%2F%2Floobr.infura-ipfs.io%2Fipfs%2FQmc5pXSCdi5tHPEJBsFq1N3JNfewUXwPPjkaJ1TxLUHCe8%3F_a%3DATO2BAA0&w=1080&q=75" alt="" width="300">
-                    <p>Owned by: Crux <br> Price: 0.5ETH <br> winning bid</p>
-                </div>
-                <br>
-                <div class="box">
-                    <img src="https://nftmyimage.com/images/9e6c99676c8cab0106c313f974297b1afdc068b057842019e668d0ecffc8632a" alt="" width="300">
-                    <p>Owned by: Crux <br> Price: 0.5ETH <br> winning bid</p>
-                </div>
-                <div class="box">
-                    <img src="https://loobr.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdq3jqnrem%2Fimage%2Ffetch%2Fq_60%2Fhttps%3A%2F%2Floobr.infura-ipfs.io%2Fipfs%2FQmc5pXSCdi5tHPEJBsFq1N3JNfewUXwPPjkaJ1TxLUHCe8%3F_a%3DATO2BAA0&w=1080&q=75" alt="" width="300">
-                    <p>Owned by: Crux <br> Price: 0.5ETH <br> winning bid</p>
-                </div>
-                <div class="box">
-                    <img src="https://nftmyimage.com/images/9e6c99676c8cab0106c313f974297b1afdc068b057842019e668d0ecffc8632a" alt="" width="300">
-                    <p>Owned by: Crux <br> Price: 0.5ETH <br> winning bid</p>
+                    <img src="Elizabeth Olusipe.JPG" alt="" width="250">
+                    <p>Elizabeth Olusipe</p>
                 </div>
             </div>
         </div>
@@ -94,9 +137,24 @@
 
     <footer>
         <div class="copyright">
-            &copy; 2022 | Created & Designed By <a href="#">BINA</a>
+            &copy; 2022 | Created & Designed By <a href="#">BINA Inc.</a> All rights reserved
         </div>
     </footer>
+
+    <script>
+        const plus = document.querySelector('.plus'),
+            minus = document.querySelector('.minus'),
+            num = document.querySelector('.num');
+
+        update = (n) => {
+            num.innerText = (n < 30 && n > 0) ? `${n}` : n;
+        }
+
+        let a = 1;
+
+        plus.addEventListener('click', () => update(++a));
+        minus.addEventListener('click', () => update(--a));
+    </script>
 </body>
 
 </html>
