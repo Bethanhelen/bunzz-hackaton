@@ -74,11 +74,15 @@ header {
     border-radius: 15px;
     cursor: pointer;
     border: none;
-    color: #f3cba5;
     padding: 10px;
     font-family: "Poppins";
     font-size: 1em;
     transition: 0.5s all;
+}
+
+.hero-left button a {
+    text-decoration: none;
+    color: #f3cba5;
 }
 
 .hero-left button:hover {
@@ -90,7 +94,7 @@ header {
 
 .works,
 .auction {
-    padding: 80px 120px;
+    padding: 40px 120px;
     color: #f3cba5;
     line-height: 2em;
 }
@@ -109,7 +113,6 @@ header {
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     transition: 0.5s all;
-    flex-wrap: wrap;
 }
 
 .card:hover {
@@ -141,6 +144,35 @@ header {
     font-size: 1.5em;
     text-align: center;
     padding: 20px 0;
+}
+
+
+/* auction level */
+
+.boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 30%;
+    background: #25161b;
+    padding: 15px;
+    margin: 30px 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s all;
+}
+
+.box:hover {
+    transform: translateY(10%);
+}
+
+.box p {
+    font-size: 1em;
+    text-align: center;
 }
 
 
